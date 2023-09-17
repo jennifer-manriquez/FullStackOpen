@@ -5,8 +5,8 @@ sequenceDiagram
 
     browser->>server: POST https://studies.cs.helsinki.fi/exampleapp/new_note
     activate server
-    Note right of browser: Send form data and redirect to notes
-    server-->>browser: 
+    Note right of browser: Send form data 
+    server-->>browser: Redirect to https://studies.cs.helsinki.fi/exampleapp/notes
     deactivate server
 
 
